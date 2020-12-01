@@ -9,3 +9,6 @@ global $app;
 
 $app->get('/hello', "ExampleController::sayHello")->add(new ExampleMiddleware());
 $app->get('/directory', DirectoryTraverserController::class . ":traverse");
+$app->get('/phpinfo', function () {
+    phpinfo();
+});
