@@ -43,6 +43,8 @@ xdebug.default_enable = "Off"
 xdebug.remote_autostart = 0
 ```
 
+* Stop and Start MAMP for the configuration to take effect
+
 If you are having trouble finding the ini file, go to localhost/PATH_TO/debugger-showcase/public/phpinfo in the browser and
 look for `Loaded Configuration File`
 
